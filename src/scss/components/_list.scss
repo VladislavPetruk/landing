@@ -1,0 +1,58 @@
+.section--cryptoList{
+  padding: 40px 0 80px;
+}
+.cryptoList{
+  @include flex-all-sb;
+
+  &-image{
+    position: relative;
+    left: -85px;
+    max-width: 1025px;
+
+    @include big-desktop{
+      left: 0;
+
+      img{
+        width: 95%;
+      }
+    }
+
+    @include small-tablet{
+      display: none;
+    }
+  }
+  &-content{
+    max-width: 470px;
+
+    &__title{
+
+      span{
+
+      }
+
+      @include tablet{
+        font-size: 30px;
+      }
+    }
+
+    &__description{
+      margin: 32px 0;
+      line-height: 150%;
+    }
+
+    &__btn{
+      padding: 16px 40px;
+      font-size: 20px;
+      line-height: 150%;
+
+      @include small-tablet{
+        margin: 0 auto;
+      }
+    }
+
+    @include small-tablet{
+      max-width: 100%;
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,109 @@
+.section--platform{
+  padding: 50px 0 100px;
+}
+
+.platform{
+
+  &-top{
+    @include flex-all-sb;
+    margin-bottom: 90px;
+
+    &__title{
+      display: block;
+      width: 480px;
+
+      @include big-desktop{
+        width: 100%;
+      }
+
+      span{
+
+      }
+    }
+    &__description{
+      width: calc( 100% - (480px + 100px));
+      line-height: 160%;
+
+      @include big-desktop{
+        width: 100%;
+      }
+    }
+
+    @include big-desktop{
+      display: block;
+      text-align: center;
+    }
+
+    @include small-tablet{
+      margin-bottom: 30px;
+    }
+
+  }
+  &-bottom{
+    @include flex-all-sb;
+
+    @include big-desktop{
+      display: block;
+    }
+  }
+  &-item{
+    max-width: 374px;
+
+    &:last-child{
+      max-width: 410px;
+    }
+
+    &__title{
+      position: relative;
+      margin-bottom: 30px;
+      padding-left: 88px;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 64px;
+      color: var(--color-black);
+
+      &::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 64px;
+        height: 64px;
+      }
+
+      &--first::before{
+        background: url('../../img/svg/free.svg');
+      }
+      &--second::before{
+        background: url('../../img/svg/security.svg');
+      }
+      &--third::before{
+        background: url('../../img/svg/payment.svg');
+      }
+
+      @include mobile{
+        font-size: 18px;
+        padding-left: 75px;
+        margin-bottom: 15px;
+      }
+    }
+    &__description{
+      font-size: 16px;
+      line-height: 150%;
+      color: var(--color-mine);
+      padding-left: 14px;
+
+      @include mobile{
+        padding-left: 0;
+      }
+    }
+
+    @include big-desktop{
+      max-width: 100% !important;
+
+      &:not(:last-child){
+        margin-bottom: 30px;
+      }
+    }
+  }
+}

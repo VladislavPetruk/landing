@@ -1,0 +1,27 @@
+.header{
+  padding: 20px 0;
+  background-color: var(--color-white);
+
+  &-wrapper{
+    @include flex-all-sb;
+  }
+
+  &-left{
+    @include flex-v-center;
+
+    &__logo{
+      display: inline-flex;
+    }
+  }
+
+  &-right{
+    @include flex-v-center;
+
+    &__btn{
+      margin-left: 24px;
+      font-size: 12px;
+      line-height: 15px;
+    }
+  }
+
+}

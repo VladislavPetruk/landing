@@ -1,0 +1,25 @@
+.section--featured{
+  padding: 60px 0 100px;
+}
+
+.featured{
+
+  &__title{
+    text-align: center;
+
+    span{
+
+    }
+  }
+
+  &__brands{
+    @include flex-v-center;
+    gap: 53px;
+    margin-top: 50px;
+
+    @include small-tablet{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+}

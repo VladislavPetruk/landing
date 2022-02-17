@@ -1,0 +1,59 @@
+.section--banner{
+  padding: 40px 0 80px;
+}
+.banner{
+  @include flex-all-sb;
+
+  &-image{
+    position: relative;
+    left: -80px;
+    max-width: 695px;
+
+    @include big-desktop{
+      left: 0;
+
+      img{
+        width: 80%;
+      }
+    }
+
+    @include small-tablet{
+      display: none;
+    }
+  }
+  &-content{
+    max-width: 470px;
+
+    &__title{
+      font-weight: 700;
+      font-size: 52px;
+      line-height: 150%;
+      color: var(--color-mine);
+
+      @include tablet{
+        font-size: 35px;
+      }
+    }
+
+    &__description{
+      margin: 32px 0;
+      line-height: 150%;
+    }
+
+    button.btn--secondary{
+      padding: 16px 42px;
+      border-radius: 8px;
+      font-size: 20px;
+      line-height: 150%;
+
+      @include small-tablet{
+        margin: 0 auto;
+      }
+    }
+
+    @include small-tablet{
+      max-width: 100%;
+      text-align: center;
+    }
+  }
+}

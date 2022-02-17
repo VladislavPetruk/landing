@@ -1,0 +1,25 @@
+.btn{
+  @include flex-all-center;
+  padding: 12px 32px;
+  border: 1px solid rgba(42, 39, 64, 0.5);
+  background-color: var(--color-white);
+  border-radius: 6px;
+  color: var(--color-btn);
+  font-weight: 600;
+  transition: background-color .2s ease-in-out;
+}
+.btn--secondary{
+  background-color: var(--color-btn);
+  color: var(--color-white);
+  transition: background-color .2s ease-in-out;
+}
+
+.btn:hover{
+  background-color: var(--color-btn);
+  color: var(--color-white);
+}
+
+.btn--secondary:hover{
+  color: var(--color-btn);
+  background-color: var(--color-white);
+}
