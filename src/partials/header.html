@@ -10,17 +10,23 @@
             <li class="nav__item"><a href="#service" class="nav__link">Service</a></li>
             <li class="nav__item"><a href="#pricing" class="nav__link">Pricing</a></li>
           </ul>
+          <div class="header-right header-right--visible">
+            <a href="#" class="btn btn__login header-right__btn">Login</a>
+          </div>
         </nav>
       </div>
-      <div class="header-right">
+      <div class="header-right header-right--hidden">
         <div class="header-right__language select__language">
           <select name="Language" id="header__select" class="header__select">
             <option value="Eng">Eng</option>
             <option value="Uk">Uk</option>
           </select>
         </div>
-        <a href="#" class="btn btn__login header-right__btn" data-graph-animation="custom" data-graph-path="first">Login</a>
+        <a href="#" class="btn btn__login header-right__btn">Login</a>
       </div>
+      <button class="burger" aria-label="Открыть меню" aria-expanded="false"  data-burger>
+        <span class="burger__line"></span>
+      </button>
     </div>
   </div>
 </header>

@@ -5,7 +5,6 @@ require 'phpmailer/SMTP.php';
 require 'phpmailer/Exception.php';
 
 $title = "Тема письма";
-$file = $_FILES['file'];
 
 $c = true;
 // Формирование самого письма
@@ -33,29 +32,15 @@ try {
 
   // Настройки вашей почты
   $mail->Host       = 'smtp.gmail.com'; // SMTP сервера вашей почты
-  $mail->Username   = ''; // Логин на почте
-  $mail->Password   = ''; // Пароль на почте
+  $mail->Username   = 'vladiislav.petruk@gmail.com'; // Логин на почте
+  $mail->Password   = 'hingrlepwbvnqxnf'; // Пароль на почте
   $mail->SMTPSecure = 'ssl';
   $mail->Port       = 465;
 
-  $mail->setFrom('', 'Заявка с вашего сайта'); // Адрес самой почты и имя отправителя
+  $mail->setFrom('', 'Заявка с лендинга'); // Адрес самой почты и имя отправителя
 
   // Получатель письма
-  $mail->addAddress('');
-
-  // Прикрипление файлов к письму
-  if (!empty($file['name'][0])) {
-    for ($ct = 0; $ct < count($file['tmp_name']); $ct++) {
-      $uploadfile = tempnam(sys_get_temp_dir(), sha1($file['name'][$ct]));
-      $filename = $file['name'][$ct];
-      if (move_uploaded_file($file['tmp_name'][$ct], $uploadfile)) {
-          $mail->addAttachment($uploadfile, $filename);
-          $rfile[] = "Файл $filename прикреплён";
-      } else {
-          $rfile[] = "Не удалось прикрепить файл $filename";
-      }
-    }
-  }
+  $mail->addAddress('vladiislav.petruk@gmail.com');
 
   // Отправка сообщения
   $mail->isHTML(true);

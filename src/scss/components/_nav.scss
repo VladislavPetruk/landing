@@ -3,6 +3,12 @@
 
   &__list{
     @include flex-v-center;
+
+    @include small-tablet{
+      display: block;
+      margin-bottom: 30px;
+      text-align: center;
+    }
   }
 
   &__item{
@@ -10,8 +16,13 @@
     &:not(:last-child){
       margin-right: 44px;
 
+
       @include tablet{
         margin-right: 30px;
+      }
+
+      @include small-tablet{
+        margin: 0;
       }
     }
   }
@@ -46,7 +57,42 @@
     &:hover::after{
       width: 100%;
     }
+
+    @include small-tablet{
+      font-size: 35px;
+      line-height: 250%;
+    }
   }
+
+  &.header-left__nav{
+    @include small-tablet{
+      position: fixed;
+      left: 0;
+      top: 0;
+      position: fixed;
+      left: 0;
+      top: 0;
+      margin: 0;
+      z-index: 1000;
+      display: block;
+      overflow-y: auto;
+      padding: 50px;
+      width: 80%;
+      height: 100vh;
+      background-color: var(--color-white);
+      transform: translateX(-150%);
+      transition: transform 0.3s ease-in-out;
+
+      &.header__nav--active{
+        transform: none;
+      }
+    }
+
+    @include small-mobile{
+      padding: 30px;
+    }
+  }
+
 }
 
 

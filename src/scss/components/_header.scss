@@ -21,7 +21,39 @@
       margin-left: 24px;
       font-size: 12px;
       line-height: 15px;
+
+      @include small-tablet{
+        margin-left: 0;
+      }
     }
+    &--visible{
+      display: none;
+
+      .btn{
+        @include small-tablet {
+          max-width: 300px;
+          margin: 0 auto;
+        }
+      }
+      @include small-tablet {
+        display: block;
+      }
+    }
+    &--hidden{
+      .header-right__language{
+        @include small-tablet {
+          padding-right: 75px;
+        }
+      }
+      .btn{
+        @include small-tablet {
+          display: none;
+        }
+      }
+
+    }
+
+
   }
 
 }
