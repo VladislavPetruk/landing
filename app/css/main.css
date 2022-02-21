@@ -450,6 +450,7 @@ h2 {
   margin-bottom: 24px;
   font-size: 20px;
   color: var(--color-scorpions);
+  font-weight: 700;
 }
 .footer-nav__item:not(:last-child) {
   margin-bottom: 20px;
@@ -1129,6 +1130,7 @@ h2 span {
 .pricing-tabs__nav-item {
   height: 100%;
   width: calc(100% - 160px);
+  border-radius: 40px;
 }
 .pricing-tabs__nav-btn {
   display: -webkit-box;
@@ -1482,6 +1484,13 @@ h2 span {
   line-height: 150%;
   color: #848484;
   margin-bottom: 24px;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  max-height: 75px;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 .reviews-article__comment-author {
   font-weight: 600;

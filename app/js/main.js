@@ -13,15 +13,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_modal_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/modal.js */ "./src/js/components/modal.js");
 /* harmony import */ var _components_select_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/select.js */ "./src/js/components/select.js");
 /* harmony import */ var _components_select_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_components_select_js__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _components_ellipsis__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/ellipsis */ "./src/js/components/ellipsis.js");
-/* harmony import */ var _components_ellipsis__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_components_ellipsis__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _components_scroll_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/scroll.js */ "./src/js/components/scroll.js");
-/* harmony import */ var _components_validate_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/validate.js */ "./src/js/components/validate.js");
-/* harmony import */ var _components_burger_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/burger.js */ "./src/js/components/burger.js");
-/* harmony import */ var _components_burger_js__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_components_burger_js__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _components_preloader__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/preloader */ "./src/js/components/preloader.js");
-/* harmony import */ var _components_preloader__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_components_preloader__WEBPACK_IMPORTED_MODULE_7__);
-
+/* harmony import */ var _components_scroll_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/scroll.js */ "./src/js/components/scroll.js");
+/* harmony import */ var _components_scroll_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_components_scroll_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _components_validate_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/validate.js */ "./src/js/components/validate.js");
+/* harmony import */ var _components_burger_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/burger.js */ "./src/js/components/burger.js");
+/* harmony import */ var _components_burger_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_components_burger_js__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _components_preloader__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/preloader */ "./src/js/components/preloader.js");
+/* harmony import */ var _components_preloader__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_components_preloader__WEBPACK_IMPORTED_MODULE_6__);
 
 
 
@@ -139,13 +137,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _vendor_focus_visible_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_vendor_focus_visible_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _vendor_choices_min_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./vendor/choices.min.js */ "./src/js/vendor/choices.min.js");
 /* harmony import */ var _vendor_choices_min_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_vendor_choices_min_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _vendor_ellipsis_min_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./vendor/ellipsis.min.js */ "./src/js/vendor/ellipsis.min.js");
-/* harmony import */ var _vendor_ellipsis_min_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_vendor_ellipsis_min_js__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _vendor_inputmask_min_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./vendor/inputmask.min.js */ "./src/js/vendor/inputmask.min.js");
-/* harmony import */ var _vendor_inputmask_min_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_vendor_inputmask_min_js__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _vendor_just_validate_min_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./vendor/just-validate.min.js */ "./src/js/vendor/just-validate.min.js");
-/* harmony import */ var _vendor_just_validate_min_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_vendor_just_validate_min_js__WEBPACK_IMPORTED_MODULE_4__);
-
+/* harmony import */ var _vendor_inputmask_min_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./vendor/inputmask.min.js */ "./src/js/vendor/inputmask.min.js");
+/* harmony import */ var _vendor_inputmask_min_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_vendor_inputmask_min_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _vendor_just_validate_min_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./vendor/just-validate.min.js */ "./src/js/vendor/just-validate.min.js");
+/* harmony import */ var _vendor_just_validate_min_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_vendor_just_validate_min_js__WEBPACK_IMPORTED_MODULE_3__);
 
 
 
@@ -208,24 +203,6 @@ burger.addEventListener('click', function (e) {
 
 /***/ }),
 
-/***/ "./src/js/components/ellipsis.js":
-/*!***************************************!*\
-  !*** ./src/js/components/ellipsis.js ***!
-  \***************************************/
-/***/ (() => {
-
-Ellipsis({
-  ellipsis: '…',
-  debounce: 300,
-  responsive: true,
-  className: '.clamp',
-  lines: 2,
-  portrait: null,
-  break_word: false
-});
-
-/***/ }),
-
 /***/ "./src/js/components/modal.js":
 /*!************************************!*\
   !*** ./src/js/components/modal.js ***!
@@ -261,14 +238,42 @@ window.onload = function () {
 /*!*************************************!*\
   !*** ./src/js/components/scroll.js ***!
   \*************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ (() => {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var smooth_scroll__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! smooth-scroll */ "./node_modules/smooth-scroll/dist/smooth-scroll.polyfills.min.js");
-/* harmony import */ var smooth_scroll__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(smooth_scroll__WEBPACK_IMPORTED_MODULE_0__);
+//-----------------ПЛАВНЫЙ СКРОЛЛ-------------------------------//
+document.querySelectorAll('a[href^="#"').forEach(function (link) {
+  link.addEventListener('click', function (e) {
+    e.preventDefault();
+    var href = this.getAttribute('href').substring(1);
+    var scrollTarget = document.getElementById(href);
+    var topOffset = document.querySelector('.header').offsetHeight;
+    var elementPosition = scrollTarget.getBoundingClientRect().top;
+    var offsetPosition = elementPosition - topOffset;
+    window.scrollBy({
+      top: offsetPosition,
+      behavior: 'smooth'
+    });
+  });
+}); //-----------------NAVBAR ACTIVE------------------------------//
 
-var scroll = new (smooth_scroll__WEBPACK_IMPORTED_MODULE_0___default())('a[href*="#"]');
+var btnNavbarActive = document.querySelectorAll('.burger');
+var listNavBar = document.querySelectorAll('.header-left__nav');
+var noActiveNavBar = document.querySelectorAll('.nav__item');
+var overlay = document.querySelector('.overlay');
+noActiveNavBar.forEach(function (el) {
+  el.addEventListener('click', function () {
+    document.body.classList.remove('dis-scroll');
+    document.body.removeAttribute('data-position');
+    document.body.style.top = 'auto';
+    listNavBar.forEach(function (elem) {
+      elem.classList.remove('header__nav--active');
+      btnNavbarActive.forEach(function (element) {
+        element.classList.remove('burger--active');
+      });
+    });
+    overlay.classList.remove('overlay--active');
+  });
+});
 
 /***/ }),
 
@@ -4644,225 +4649,6 @@ function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" =
       s,
       r = {};
   n = i(373), s = i.n(n), i(187), i(883), i(789), i(686), r.default = s(), window.Choices = r.default;
-}();
-
-/***/ }),
-
-/***/ "./src/js/vendor/ellipsis.min.js":
-/*!***************************************!*\
-  !*** ./src/js/vendor/ellipsis.min.js ***!
-  \***************************************/
-/***/ ((module, exports) => {
-
-var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!function () {
-  "use strict";
-
-  function a(a) {
-    var c = k(b, a || {});
-    this.create(c), this.add();
-  }
-
-  var b = {
-    ellipsis: "…",
-    debounce: 0,
-    responsive: !0,
-    className: ".clamp",
-    lines: 2,
-    portrait: null,
-    break_word: !0
-  },
-      c = 0,
-      d = !!window.requestAnimationFrame,
-      e = function e() {
-    return c += 1;
-  },
-      f = function f(a, b) {
-    a.setAttribute("data-ellipsis-id", b);
-  },
-      g = function g(a) {
-    return a.getAttribute("data-ellipsis-id");
-  },
-      h = function h(a, b) {
-    var c = e();
-    f(b, c), a[c] = a[c] || {}, a[c].element = b, a[c].innerHTML = b.innerHTML;
-  },
-      i = function i(a, b) {
-    return a ? a[g(b)] : null;
-  },
-      j = function j(a) {
-    return Object.keys(a).map(function (b, c) {
-      return a[b].element;
-    });
-  },
-      k = function k(a, b) {
-    var c = {};
-
-    for (var d in a) {
-      c[d] = a[d];
-    }
-
-    for (var e in b) {
-      c[e] = b[e];
-    }
-
-    return c;
-  };
-
-  a.prototype = {
-    conf: {},
-    prop: {},
-    lines: {},
-    temp: null,
-    listener: null,
-    create: function create(a) {
-      if (this.conf = a, this.lines = {
-        get current() {
-          return a.portrait && window.innerHeight > window.innerWidth ? a.portrait : a.lines;
-        }
-
-      }, this.conf.responsive) {
-        this.temp = {};
-        var b,
-            c = this.conf.debounce;
-
-        if (d && !c) {
-          this._isScheduled = !1;
-          var e = this;
-
-          b = function b(a) {
-            e._isScheduled || (e._isScheduled = !0, window.requestAnimationFrame(function () {
-              e._isScheduled = !1, e.add(j(e.temp));
-            }));
-          };
-        } else {
-          c = c || 16;
-          var f;
-
-          b = function b(a) {
-            clearTimeout(f), f = setTimeout(function () {
-              this.add(j(this.temp));
-            }.bind(this), c);
-          };
-        }
-
-        this.listener = b.bind(this), window.addEventListener("resize", this.listener, !1), window.removeEventListener("beforeunload", this.listener, !1);
-      }
-    },
-    destroy: function destroy() {
-      this.listener && window.removeEventListener("resize", this.listener, !1);
-    },
-    createProp: function createProp(a) {
-      this.prop = {
-        get height() {
-          var b = a.getBoundingClientRect();
-          return parseInt(b.bottom - b.top, 10);
-        },
-
-        get lineheight() {
-          var b = getComputedStyle(a).getPropertyValue("line-height");
-          return String("normal|initial|inherit").indexOf(b) > -1 && (b = parseInt(getComputedStyle(a).getPropertyValue("font-size"), 10) + 2), parseInt(b, 10);
-        }
-
-      };
-    },
-    add: function add(a) {
-      if (!a && this.conf.className && (a = document.querySelectorAll(this.conf.className)), a) if (a.length) for (var b = 0; b < a.length; b++) {
-        this.addElement(a[b]);
-      } else void 0 === a.length && this.addElement(a);
-    },
-    addElement: function addElement(a) {
-      if (this.conf.responsive) {
-        var b = i(this.temp, a);
-        b ? a.innerHTML !== b.innerHTML && (a.innerHTML = b.innerHTML) : h(this.temp, a);
-      }
-
-      this.createProp(a), this.isNotCorrect() && (a.childNodes.length && a.childNodes.length > 1 ? this.handleChildren(a) : a.childNodes.length && 1 === a.childNodes.length && 3 === a.childNodes[0].nodeType && this.simpleText(a));
-    },
-    breakWord: function breakWord(a, b, c) {
-      var d = a.split(" ");
-      if (d.pop(), c && d.pop(), !b) return d[d.length - 1] && (d[d.length - 1] = d[d.length - 1].replace(/(,$)/g, "").replace(/(\.$)/g, "")), d.push(this.conf.ellipsis), d.join(" ");
-      if (d[d.length - 1]) return d[d.length - 1] = d[d.length - 1].replace(/(,$)/g, "").replace(/(\.$)/g, ""), d.push(this.conf.ellipsis), [d.join(" "), b];
-
-      if (!d[d.length - 1] && b) {
-        var e = " " + b.trim().replace(/(,$)/g, "").replace(/(\.$)/g, "") + " ";
-        return d.push(this.conf.ellipsis), [d.join(" "), e];
-      }
-    },
-    simpleText: function simpleText(a) {
-      for (var b = a.childNodes[0].nodeValue; this.prop.height > this.prop.lineheight * this.lines.current;) {
-        a.childNodes[0].nodeValue = b.slice(0, -1), b = a.childNodes[0].nodeValue;
-      }
-
-      this.conf.break_word ? (a.childNodes[0].nodeValue = b.slice(0, -this.conf.ellipsis.length) + this.conf.ellipsis, this.isNotCorrect() && (a.childNodes[0].nodeValue = " " + a.childNodes[0].nodeValue.slice(0, -(this.conf.ellipsis.length + 1)).trim().slice(0, -this.conf.ellipsis.length) + this.conf.ellipsis)) : (a.childNodes[0].nodeValue = this.breakWord(a.childNodes[0].nodeValue), this.isNotCorrect() && (a.childNodes[0].nodeValue = this.breakWord(a.childNodes[0].nodeValue, null, !0)));
-    },
-    isNotCorrect: function isNotCorrect() {
-      return this.prop.height > this.prop.lineheight * this.lines.current;
-    },
-    processBreak: function processBreak(a, b, c) {
-      var d = this.breakWord(a.innerText || a.nodeValue, b.innerText || b.nodeValue, c);
-      a.innerText ? a.innerText = d[0] : a.nodeValue = d[0], b.innerText ? b.innerText = d[1] : b.nodeValue = d[1];
-    },
-    handleChildren: function handleChildren(a) {
-      for (var b, c = a.childNodes, d = c.length - 1; d >= 0; d--) {
-        var e;
-
-        if (8 !== c[d].nodeType) {
-          if (3 === c[d].nodeType ? (e = c[d].nodeValue, c[d].nodeValue = "") : (e = getComputedStyle(c[d]).getPropertyValue("display"), c[d].style.display = "none"), this.prop.height <= this.prop.lineheight * this.lines.current) {
-            if (3 === c[d].nodeType) {
-              for (c[d].nodeValue = e, b = c[d].nodeValue; this.prop.height > this.prop.lineheight * this.lines.current;) {
-                c[d].nodeValue = b.slice(0, -1), b = c[d].nodeValue;
-              }
-
-              if (this.conf.break_word) {
-                if (c[d].nodeValue = b.slice(0, -this.conf.ellipsis.length) + this.conf.ellipsis, this.isNotCorrect()) {
-                  if (c[d].nodeValue = " " + c[d].nodeValue.slice(0, -this.conf.ellipsis.length).trim().slice(0, -this.conf.ellipsis.length), !(c[d].nodeValue.length > 1)) continue;
-                  c[d].nodeValue = c[d].nodeValue.slice(0, -this.conf.ellipsis.length) + this.conf.ellipsis;
-                }
-              } else {
-                if (!c[d].innerText && !c[d].nodeValue) continue;
-
-                if (this.processBreak(c[d], c[d - 1]), this.isNotCorrect() && (this.processBreak(c[d], c[d - 1], !0), this.isNotCorrect())) {
-                  a.removeChild(c[d]);
-                  continue;
-                }
-              }
-            } else {
-              for (c[d].style.display = e, b = c[d].innerText; this.prop.height > this.prop.lineheight * this.lines.current;) {
-                c[d].innerText = b.slice(0, -1), b = c[d].innerText;
-              }
-
-              if (this.conf.break_word) {
-                if (c[d].innerText = b.slice(0, -this.conf.ellipsis.length) + this.conf.ellipsis, this.isNotCorrect()) {
-                  if (c[d].innerText = " " + c[d].innerText.slice(0, -this.conf.ellipsis.length).trim().slice(0, -this.conf.ellipsis.length), !(c[d].innerText.length > 1)) continue;
-                  c[d].innerText = c[d].innerText.slice(0, -this.conf.ellipsis.length) + this.conf.ellipsis;
-                }
-              } else {
-                if (!c[d].innerText && !c[d].nodeValue) continue;
-
-                if (this.processBreak(c[d], c[d - 1]), this.isNotCorrect() && (this.processBreak(c[d], c[d - 1], !0), this.isNotCorrect())) {
-                  a.removeChild(c[d]);
-                  continue;
-                }
-              }
-            }
-
-            break;
-          }
-
-          a.removeChild(c[d]);
-        }
-      }
-    }
-  };
-
-  var l = function l(b) {
-    return new a(b);
-  };
-
-   true && !(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = (function () {
-    return l;
-  }).apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
-		__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__)), self.Ellipsis = l;
 }();
 
 /***/ }),
@@ -11575,18 +11361,6 @@ class JustValidate {
 
 
 
-/***/ }),
-
-/***/ "./node_modules/smooth-scroll/dist/smooth-scroll.polyfills.min.js":
-/*!************************************************************************!*\
-  !*** ./node_modules/smooth-scroll/dist/smooth-scroll.polyfills.min.js ***!
-  \************************************************************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*! smooth-scroll v16.1.3 | (c) 2020 Chris Ferdinandi | MIT License | http://github.com/cferdinandi/smooth-scroll */
-window.Element&&!Element.prototype.closest&&(Element.prototype.closest=function(e){var t,n=(this.document||this.ownerDocument).querySelectorAll(e),o=this;do{for(t=n.length;0<=--t&&n.item(t)!==o;);}while(t<0&&(o=o.parentElement));return o}),(function(){if("function"==typeof window.CustomEvent)return;function e(e,t){t=t||{bubbles:!1,cancelable:!1,detail:void 0};var n=document.createEvent("CustomEvent");return n.initCustomEvent(e,t.bubbles,t.cancelable,t.detail),n}e.prototype=window.Event.prototype,window.CustomEvent=e})(),(function(){for(var r=0,e=["ms","moz","webkit","o"],t=0;t<e.length&&!window.requestAnimationFrame;++t)window.requestAnimationFrame=window[e[t]+"RequestAnimationFrame"],window.cancelAnimationFrame=window[e[t]+"CancelAnimationFrame"]||window[e[t]+"CancelRequestAnimationFrame"];window.requestAnimationFrame||(window.requestAnimationFrame=function(e,t){var n=(new Date).getTime(),o=Math.max(0,16-(n-r)),a=window.setTimeout((function(){e(n+o)}),o);return r=n+o,a}),window.cancelAnimationFrame||(window.cancelAnimationFrame=function(e){clearTimeout(e)})})(),(function(e,t){ true?!(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = (function(){return t(e)}).apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
-		__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__)):0})("undefined"!=typeof __webpack_require__.g?__webpack_require__.g:"undefined"!=typeof window?window:this,(function(M){"use strict";var q={ignore:"[data-scroll-ignore]",header:null,topOnEmptyHash:!0,speed:500,speedAsDuration:!1,durationMax:null,durationMin:null,clip:!0,offset:0,easing:"easeInOutCubic",customEasing:null,updateURL:!0,popstate:!0,emitEvents:!0},I=function(){var n={};return Array.prototype.forEach.call(arguments,(function(e){for(var t in e){if(!e.hasOwnProperty(t))return;n[t]=e[t]}})),n},r=function(e){"#"===e.charAt(0)&&(e=e.substr(1));for(var t,n=String(e),o=n.length,a=-1,r="",i=n.charCodeAt(0);++a<o;){if(0===(t=n.charCodeAt(a)))throw new InvalidCharacterError("Invalid character: the input contains U+0000.");1<=t&&t<=31||127==t||0===a&&48<=t&&t<=57||1===a&&48<=t&&t<=57&&45===i?r+="\\"+t.toString(16)+" ":r+=128<=t||45===t||95===t||48<=t&&t<=57||65<=t&&t<=90||97<=t&&t<=122?n.charAt(a):"\\"+n.charAt(a)}return"#"+r},F=function(){return Math.max(document.body.scrollHeight,document.documentElement.scrollHeight,document.body.offsetHeight,document.documentElement.offsetHeight,document.body.clientHeight,document.documentElement.clientHeight)},L=function(e){return e?(t=e,parseInt(M.getComputedStyle(t).height,10)+e.offsetTop):0;var t},x=function(e,t,n){0===e&&document.body.focus(),n||(e.focus(),document.activeElement!==e&&(e.setAttribute("tabindex","-1"),e.focus(),e.style.outline="none"),M.scrollTo(0,t))},H=function(e,t,n,o){if(t.emitEvents&&"function"==typeof M.CustomEvent){var a=new CustomEvent(e,{bubbles:!0,detail:{anchor:n,toggle:o}});document.dispatchEvent(a)}};return function(o,e){var b,a,A,O,C={};C.cancelScroll=function(e){cancelAnimationFrame(O),O=null,e||H("scrollCancel",b)},C.animateScroll=function(a,r,e){C.cancelScroll();var i=I(b||q,e||{}),c="[object Number]"===Object.prototype.toString.call(a),t=c||!a.tagName?null:a;if(c||t){var s=M.pageYOffset;i.header&&!A&&(A=document.querySelector(i.header));var n,o,u,l,m,d,f,h,p=L(A),g=c?a:(function(e,t,n,o){var a=0;if(e.offsetParent)for(;a+=e.offsetTop,e=e.offsetParent;);return a=Math.max(a-t-n,0),o&&(a=Math.min(a,F()-M.innerHeight)),a})(t,p,parseInt("function"==typeof i.offset?i.offset(a,r):i.offset,10),i.clip),y=g-s,v=F(),w=0,S=(n=y,u=(o=i).speedAsDuration?o.speed:Math.abs(n/1e3*o.speed),o.durationMax&&u>o.durationMax?o.durationMax:o.durationMin&&u<o.durationMin?o.durationMin:parseInt(u,10)),E=function(e){var t,n,o;l||(l=e),w+=e-l,d=s+y*(n=m=1<(m=0===S?0:w/S)?1:m,"easeInQuad"===(t=i).easing&&(o=n*n),"easeOutQuad"===t.easing&&(o=n*(2-n)),"easeInOutQuad"===t.easing&&(o=n<.5?2*n*n:(4-2*n)*n-1),"easeInCubic"===t.easing&&(o=n*n*n),"easeOutCubic"===t.easing&&(o=--n*n*n+1),"easeInOutCubic"===t.easing&&(o=n<.5?4*n*n*n:(n-1)*(2*n-2)*(2*n-2)+1),"easeInQuart"===t.easing&&(o=n*n*n*n),"easeOutQuart"===t.easing&&(o=1- --n*n*n*n),"easeInOutQuart"===t.easing&&(o=n<.5?8*n*n*n*n:1-8*--n*n*n*n),"easeInQuint"===t.easing&&(o=n*n*n*n*n),"easeOutQuint"===t.easing&&(o=1+--n*n*n*n*n),"easeInOutQuint"===t.easing&&(o=n<.5?16*n*n*n*n*n:1+16*--n*n*n*n*n),t.customEasing&&(o=t.customEasing(n)),o||n),M.scrollTo(0,Math.floor(d)),(function(e,t){var n=M.pageYOffset;if(e==t||n==t||(s<t&&M.innerHeight+n)>=v)return C.cancelScroll(!0),x(a,t,c),H("scrollStop",i,a,r),!(O=l=null)})(d,g)||(O=M.requestAnimationFrame(E),l=e)};0===M.pageYOffset&&M.scrollTo(0,0),f=a,h=i,c||history.pushState&&h.updateURL&&history.pushState({smoothScroll:JSON.stringify(h),anchor:f.id},document.title,f===document.documentElement?"#top":"#"+f.id),"matchMedia"in M&&M.matchMedia("(prefers-reduced-motion)").matches?x(a,Math.floor(g),!1):(H("scrollStart",i,a,r),C.cancelScroll(!0),M.requestAnimationFrame(E))}};var t=function(e){if(!e.defaultPrevented&&!(0!==e.button||e.metaKey||e.ctrlKey||e.shiftKey)&&"closest"in e.target&&(a=e.target.closest(o))&&"a"===a.tagName.toLowerCase()&&!e.target.closest(b.ignore)&&a.hostname===M.location.hostname&&a.pathname===M.location.pathname&&/#/.test(a.href)){var t,n;try{t=r(decodeURIComponent(a.hash))}catch(e){t=r(a.hash)}if("#"===t){if(!b.topOnEmptyHash)return;n=document.documentElement}else n=document.querySelector(t);(n=n||"#top"!==t?n:document.documentElement)&&(e.preventDefault(),(function(e){if(history.replaceState&&e.updateURL&&!history.state){var t=M.location.hash;t=t||"",history.replaceState({smoothScroll:JSON.stringify(e),anchor:t||M.pageYOffset},document.title,t||M.location.href)}})(b),C.animateScroll(n,a))}},n=function(e){if(null!==history.state&&history.state.smoothScroll&&history.state.smoothScroll===JSON.stringify(b)){var t=history.state.anchor;"string"==typeof t&&t&&!(t=document.querySelector(r(history.state.anchor)))||C.animateScroll(t,null,{updateURL:!1})}};C.destroy=function(){b&&(document.removeEventListener("click",t,!1),M.removeEventListener("popstate",n,!1),C.cancelScroll(),O=A=a=b=null)};return (function(){if(!("querySelector"in document&&"addEventListener"in M&&"requestAnimationFrame"in M&&"closest"in M.Element.prototype))throw"Smooth Scroll: This browser does not support the required JavaScript methods and browser APIs.";C.destroy(),b=I(q,e||{}),A=b.header?document.querySelector(b.header):null,document.addEventListener("click",t,!1),b.updateURL&&b.popstate&&M.addEventListener("popstate",n,!1)})(),C}}));
-
 /***/ })
 
 /******/ 	});
@@ -11641,18 +11415,6 @@ window.Element&&!Element.prototype.closest&&(Element.prototype.closest=function(
 /******/ 				}
 /******/ 			}
 /******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/global */
-/******/ 	(() => {
-/******/ 		__webpack_require__.g = (function() {
-/******/ 			if (typeof globalThis === 'object') return globalThis;
-/******/ 			try {
-/******/ 				return this || new Function('return this')();
-/******/ 			} catch (e) {
-/******/ 				if (typeof window === 'object') return window;
-/******/ 			}
-/******/ 		})();
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */

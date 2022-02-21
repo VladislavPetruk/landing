@@ -51,6 +51,7 @@
       &-item{
         height: 100%;
         width: calc(100% - 160px);
+        border-radius: 40px;
       }
       &-btn{
         @include flex-all-center;
