@@ -31,16 +31,16 @@ try {
   $mail->SMTPAuth   = true;
 
   // Настройки вашей почты
-  $mail->Host       = 'smtp.gmail.com'; // SMTP сервера вашей почты
-  $mail->Username   = 'vladiislav.petruk@gmail.com'; // Логин на почте
-  $mail->Password   = 'hingrlepwbvnqxnf'; // Пароль на почте
+  $mail->Host       = ''; // SMTP сервера вашей почты
+  $mail->Username   = ''; // Логин на почте
+  $mail->Password   = ''; // Пароль на почте
   $mail->SMTPSecure = 'ssl';
   $mail->Port       = 465;
 
   $mail->setFrom('', 'Заявка с лендинга'); // Адрес самой почты и имя отправителя
 
   // Получатель письма
-  $mail->addAddress('vladiislav.petruk@gmail.com');
+  $mail->addAddress('');
 
   // Отправка сообщения
   $mail->isHTML(true);
