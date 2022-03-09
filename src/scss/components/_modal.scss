@@ -1,5 +1,6 @@
 .graph-modal__container{
-  width: max-content;
+  width: 85%;
+  max-width: 650px;
 }
 .graph-modal__content{
   @include flex-all-sb;
@@ -16,6 +17,7 @@
 
   &__item{
     width: 265px;
+    height: 295px;
     padding: 24px;
     background: #FCFCFC;
     border: 2px solid #EDECF3;
@@ -28,6 +30,7 @@
       line-height: 150%;
       color: var(--color-mine);
       text-align: center;
+      text-transform: capitalize;
     }
     &-price{
       margin: 12px 0 24px;
@@ -96,9 +99,18 @@
       @include flex-v-center;
       flex-direction: column;
 
+
       &__title{
         margin-bottom: 20px;
         color: var(--color-mine);
+
+        span{
+          display: none;
+        }
+
+        &-wrapp{
+          height: 48.57px;
+        }
       }
 
       &__label{

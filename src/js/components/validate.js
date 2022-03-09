@@ -51,9 +51,13 @@ validation
       errorMessage: 'Please enter a valid phone',
     },
   ]).onSuccess((event) => {
-    console.log('Validation passes and form submitted', event);
 
     let formData = new FormData(event.target);
+
+    let title = document.querySelector('.modal__item-title').textContent;
+    let price = document.querySelector('.modal__item-price span').textContent;
+    formData.append('Plan', `${title}`);
+    formData.append('Sum', `${price}`);
 
     let xhr = new XMLHttpRequest();
 

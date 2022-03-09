@@ -78,6 +78,7 @@
 
       &.tabs__panel--active{
         @include flex-all-sb;
+        flex-wrap: wrap;
         animation: .3s linear .3s forwards show;
 
         @include big-desktop{

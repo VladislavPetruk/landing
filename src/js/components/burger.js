@@ -30,22 +30,8 @@ burger.addEventListener('click', (e) => {
   } else {
     enScroll();
   }
-
-
-  /* if (e.target.closest('.header__nav--active')) {
-    burger.classList.remove('burger--active');
-    menu.classList.remove('header__nav--active');
-    overlay.classList.remove('overlay--active');
-  } */
 });
 
-/* menu.addEventListener('click', function (e) {
-  if (e.target.classList.contains('header-left__nav') && !e.target.classList.contains("header__nav--active")) {
-    burger.classList.remove('burger--active');
-    menu.classList.remove('header__nav--active');
-    overlay.classList.remove('overlay--active');
-  }
-}); */
 
 
 

@@ -1,187 +1,10 @@
-<!DOCTYPE html>
-<html lang="en" class="page">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="theme-color" content="#111111">
-  <title>Crypto</title>
-  <link rel="preload" href="fonts/Inter-regular.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="css/vendor.css">
-  <link rel="stylesheet" href="css/main.css">
-  <script defer src="js/main.js"></script>
-</head>
-
-<body class="page__body">
-  <div class="site-container">
-    <div class="preloader">
-  <div class="preloader__row">
-    <div class="preloader__item"></div>
-    <div class="preloader__item"></div>
-  </div>
-</div>
-
-    <header class="header header--main">
-  <div class="container">
-    <div class="header-wrapper">
-      <div class="header-left">
-        <a class="header-left__logo" href="/"><img src="img/logo.svg" alt="Crypto"></a>
-        <nav class="nav header-left__nav">
-          <ul class="list-reset nav__list">
-            <li class="nav__item"><a href="/" class="nav__link nav__link--active">Home</a></li>
-            <li class="nav__item"><a href="#featured" class="nav__link">Featured</a></li>
-            <li class="nav__item"><a href="#service" class="nav__link">Service</a></li>
-            <li class="nav__item"><a href="#pricing" class="nav__link">Pricing</a></li>
-          </ul>
-          <div class="header-right header-right--visible">
-            <a href="#" class="btn btn__login header-right__btn">Login</a>
-          </div>
-        </nav>
-      </div>
-      <div class="header-right header-right--hidden">
-        <div class="header-right__language select__language">
-          <select name="Language" id="header__select" class="header__select">
-            <option value="Eng">Eng</option>
-            <option value="Uk">Uk</option>
-          </select>
-        </div>
-        <a href="#" class="btn btn__login header-right__btn">Login</a>
-      </div>
-      <button class="burger" aria-label="Открыть меню" aria-expanded="false"  data-burger>
-        <span class="burger__line"></span>
-      </button>
-    </div>
-  </div>
-</header>
-
-    <main class="main">
-      <section class="section section--banner">
-  <div class="container">
-    <div class="banner">
-      <div class="banner-image">
-        <picture>
-          <source srcset="img/banner.avif" type="image/avif">
-          <source srcset="img/banner.webp" type="image/webp">
-          <img loading="lazy" src="img/banner.png" class="image" width="695" height="690" alt="Crypto">
-        </picture>
-      </div>
-      <div class="banner-content">
-        <h1 class="banner-content__title">
-          Buy Crypto Now, to Get Rich In The Future
-        </h1>
-        <p class="banner-content__description">
-          Crypto.qu is more than just a Crypto trading platform. It’s the best place to learn about crypto.
-        </p>
-        <button class="btn-reset btn btn--secondary banner-content__btn">
-          Get Started
-        </button>
-      </div>
-    </div>
-  </div>
-</section>
-
-      <section class="section section--featured" id="featured">
-  <div class="container">
-    <div class="featured">
-      <h2 class="title featured__title">
-        <span>Featured</span> on
-      </h2>
-      <div class="featured__brands">
-        <a href="#">
-          <img src="img/svg/brand-1.svg" alt="Coindesk">
-        </a>
-        <a href="#">
-          <img src="img/svg/brand-2.svg" alt="Cointelegraph">
-        </a>
-        <a href="#">
-          <img src="img/svg/brand-3.svg" alt="Reuters">
-        </a>
-        <a href="#">
-          <img src="img/svg/brand-4.svg" alt="CoinTracker">
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
-
-      <section class="section section--platform" id="service">
-  <div class="container">
-    <div class="platform">
-      <div class="platform-top">
-        <h2 class="title platform-top__title">
-          Trusted <span>crypto platform</span>
-          for sell, buy, and trade.
-        </h2>
-        <p class="platform-top__description">Crypto.qu is one of the best cryptocurrency exchange platforms. It has the fastest 0 transaction fees, data secure, support buying crypto with credit or debit card, and other advantages.</p>
-      </div>
-      <div class="platform-bottom">
-        <div class="platform-item">
-          <h4 class="platform-item__title platform-item__title--first">No Transaction Fees</h4>
-          <p class="platform-item__description">You can make a transaction like buy, sell, trade and exchange a cryptocurrency with no fees.</p>
-        </div>
-        <div class="platform-item">
-          <h4 class="platform-item__title platform-item__title--second">Data Secure</h4>
-          <p class="platform-item__description">Data protection with automated backup, recovery and replication in the AQU Cloud.</p>
-        </div>
-        <div class="platform-item">
-          <h4 class="platform-item__title platform-item__title--third">Support Credit & Debit Card </h4>
-          <p class="platform-item__description">We have a new feature that support all crypto transaction a with credit and debit card</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-      <section class="section section--cryptoList">
-  <div class="container">
-    <div class="cryptoList">
-      <div class="cryptoList-image">
-        <picture>
-          <source srcset="img/list_crypto.avif" type="image/avif">
-          <source srcset="img/list_crypto.webp" type="image/webp">
-          <img loading="lazy" src="img/list_crypto.png" class="image" width="823" height="520" alt="CryptoList">
-        </picture>
-      </div>
-      <div class="cryptoList-content">
-        <h2 class="cryptoList-content__title">
-          <span>List of Crypto</span> You Can Buy on Crypto.qu
-        </h2>
-        <p class="cryptoList-content__description">
-          Crypto.qu is more than just a Crypto trading platform. It is the best place to buy, sell, trade and learn about crypto.
-        </p>
-        <button class="btn-reset btn cryptoList-content__btn">
-          See more
-        </button>
-      </div>
-    </div>
-  </div>
-</section>
-
-      <section class="section pricing--section" id="pricing">
-  <div class="container">
-    <div class="pricing">
-      <h2 class="pricing__title">
-        Choose <span>Pricing</span> for Join our Membership
-      </h2>
-      <p class="pricing__description">
-        We offer the best deals for our membership.
-      </p>
-      <div class="pricing-content pricing-tabs" data-tabs="tab">
-        <ul class="pricing-tabs__nav tabs__nav list-reset">
-          <li class="pricing-tabs__nav-item"><button class="pricing-tabs__nav-btn tabs__nav-btn btn-reset" type="button">Yearly</button></li>
-          <li class="pricing-tabs__nav-item"><button class="pricing-tabs__nav-btn tabs__nav-btn btn-reset" type="button">Monthly</button></li>
-        </ul>
-        <div class="tabs__content pricing-tabs__content">
-          <div class="pricing-tabs__panel tabs__panel">
-            <article class="pricing-tabs__item">
+<!DOCTYPE html><html lang="en" class="page"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="shortcut icon" href="favicon.ico" type="image/x-icon"><meta http-equiv="X-UA-Compatible" content="ie=edge"><meta name="theme-color" content="#111111"><title>Crypto</title><link rel="preload" href="fonts/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="fonts/Inter-Medium.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="fonts/Inter-SemiBold.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="fonts/Inter-Bold.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="fonts/Inter-ExtraBold.woff2" as="font" type="font/woff2" crossorigin><link rel="stylesheet" href="css/vendor.css"><link rel="stylesheet" href="css/main.css"><script defer="defer" src="js/main.js"></script></head><body class="page__body"><div class="site-container"><div class="preloader"><div class="preloader__row"><div class="preloader__item"></div><div class="preloader__item"></div></div></div><header class="header header--main"><div class="container"><div class="header-wrapper"><div class="header-left"><a class="header-left__logo" href="/"><img src="img/logo.svg" alt="Crypto"></a><nav class="nav header-left__nav"><ul class="list-reset nav__list"><li class="nav__item"><a href="/" class="nav__link nav__link--active">Home</a></li><li class="nav__item"><a href="#featured" class="nav__link">Featured</a></li><li class="nav__item"><a href="#service" class="nav__link">Service</a></li><li class="nav__item"><a href="#pricing" class="nav__link">Pricing</a></li></ul><div class="header-right header-right--visible"><a href="#" class="btn btn__login header-right__btn">Login</a></div></nav></div><div class="header-right header-right--hidden"><div class="header-right__language select__language"><select name="Language" id="header__select" class="header__select"><option value="Eng">Eng</option><option value="Uk">Uk</option></select></div><a href="#" class="btn btn__login header-right__btn">Login</a></div><button class="burger" aria-label="Открыть меню" aria-expanded="false" data-burger><span class="burger__line"></span></button></div></div></header><main class="main"><section class="section section--banner"><div class="container"><div class="banner"><div class="banner-image" data-aos="fade-right" data-aos-delay="250"><picture><source srcset="img/banner.avif" type="image/avif"><source srcset="img/banner.webp" type="image/webp"><img loading="lazy" src="img/banner.png" class="image" width="695" height="690" alt="Crypto"></picture></div><div class="banner-content" data-aos="fade-left" data-aos-delay="250"><h1 class="banner-content__title">Buy Crypto Now, to Get Rich In The Future</h1><p class="banner-content__description">Crypto.qu is more than just a Crypto trading platform. It’s the best place to learn about crypto.</p><button class="btn-reset btn btn--secondary banner-content__btn">Get Started</button></div></div></div></section><section class="section section--featured" id="featured"><div class="container"><div class="featured"><h2 class="title featured__title"><span>Featured</span> on</h2><div class="featured__brands" data-aos="slide-right" data-aos-delay="50" data-aos-duration="1000"><a href="#"><img src="img/svg/brand-1.svg" alt="Coindesk"> </a><a href="#"><img src="img/svg/brand-2.svg" alt="Cointelegraph"> </a><a href="#"><img src="img/svg/brand-3.svg" alt="Reuters"> </a><a href="#"><img src="img/svg/brand-4.svg" alt="CoinTracker"></a></div></div></div></section><section class="section section--platform" id="service"><div class="container"><div class="platform"><div class="platform-top"><h2 class="title platform-top__title">Trusted <span>crypto platform</span> for sell, buy, and trade.</h2><p class="platform-top__description">Crypto.qu is one of the best cryptocurrency exchange platforms. It has the fastest 0 transaction fees, data secure, support buying crypto with credit or debit card, and other advantages.</p></div><div class="platform-bottom" data-aos="slide-left" data-aos-delay="50" data-aos-duration="1000"><div class="platform-item"><h4 class="platform-item__title platform-item__title--first">No Transaction Fees</h4><p class="platform-item__description">You can make a transaction like buy, sell, trade and exchange a cryptocurrency with no fees.</p></div><div class="platform-item"><h4 class="platform-item__title platform-item__title--second">Data Secure</h4><p class="platform-item__description">Data protection with automated backup, recovery and replication in the AQU Cloud.</p></div><div class="platform-item"><h4 class="platform-item__title platform-item__title--third">Support Credit & Debit Card</h4><p class="platform-item__description">We have a new feature that support all crypto transaction a with credit and debit card</p></div></div></div></div></section><section class="section section--cryptoList"><div class="container"><div class="cryptoList"><div class="cryptoList-image"><picture><source srcset="img/list_crypto.avif" type="image/avif"><source srcset="img/list_crypto.webp" type="image/webp"><img loading="lazy" src="img/list_crypto.png" class="image" width="823" height="520" alt="CryptoList"></picture></div><div class="cryptoList-content"><h2 class="cryptoList-content__title"><span>List of Crypto</span> You Can Buy on Crypto.qu</h2><p class="cryptoList-content__description">Crypto.qu is more than just a Crypto trading platform. It is the best place to buy, sell, trade and learn about crypto.</p><button class="btn-reset btn cryptoList-content__btn">See more</button></div></div></div></section><section class="section pricing--section" id="pricing"><div class="container"><div class="pricing"><h2 class="pricing__title">Choose <span>Pricing</span> for Join our Membership</h2><p class="pricing__description">We offer the best deals for our membership.</p><div class="pricing-content pricing-tabs" data-tabs="tab"><ul class="pricing-tabs__nav tabs__nav list-reset"><li class="pricing-tabs__nav-item"><button class="pricing-tabs__nav-btn tabs__nav-btn btn-reset" type="button">Yearly</button></li><li class="pricing-tabs__nav-item"><button class="pricing-tabs__nav-btn tabs__nav-btn btn-reset" type="button">Monthly</button></li></ul><div class="tabs__content pricing-tabs__content"><div class="pricing-tabs__panel pricing-tabs__panel--year tabs__panel"><!-- <article class="pricing-tabs__item">
               <h5 class="pricing-tabs__item-title">Free <span>💵</span></h5>
               <h3 class="pricing-tabs__item-price"><sup>$</sup><span>0</span><sub>/ year</sub></h3>
               <div class="pricing-tabs__item-benefits">
                 <p>Group Consulting</p>
                 <p>Updated News</p>
-                <p>2 Kinds of Crypto Portfolio</p>
+                <p>2 Kinds of Crypto Portfolio</p>
               </div>
               <button class="btn btn-reset pricing-tabs__item-buy"  data-graph-animation="custom" data-graph-path="first">Get Now</button>
             </article>
@@ -191,7 +14,7 @@
               <div class="pricing-tabs__item-benefits">
                 <p>Group Consulting</p>
                 <p>Updated News</p>
-                <p>4 Kinds of Crypto Portfolio</p>
+                <p>4 Kinds of Crypto Portfolio</p>
               </div>
               <button class="btn btn-reset pricing-tabs__item-buy"  data-graph-animation="custom" data-graph-path="first">Get Now</button>
             </article>
@@ -201,7 +24,7 @@
               <div class="pricing-tabs__item-benefits">
                 <p>Personal Consulting</p>
                 <p>Updated News</p>
-                <p>5+ Kinds of Crypto Portfolio</p>
+                <p>5+ Kinds of Crypto Portfolio</p>
               </div>
               <button class="btn btn-reset btn--secondary pricing-tabs__item-buy" data-graph-animation="custom" data-graph-path="first">Get Now</button>
             </article>
@@ -214,18 +37,15 @@
                 <p>All Trade Features Unlocked</p>
               </div>
               <button class="btn btn-reset pricing-tabs__item-buy" data-graph-animation="custom" data-graph-path="first">Get Now</button>
-            </article>
-          </div>
-          <div class="pricing-tabs__panel tabs__panel">
-            <article class="pricing-tabs__item">
+            </article> --></div><div class="pricing-tabs__panel pricing-tabs__panel--month tabs__panel"><!-- <article class="pricing-tabs__item">
               <h5 class="pricing-tabs__item-title">Free <span>💵</span></h5>
               <h3 class="pricing-tabs__item-price"><sup>$</sup><span>0</span><sub>/ month</sub></h3>
               <div class="pricing-tabs__item-benefits">
                 <p>Group Consulting</p>
                 <p>Updated News</p>
-                <p>2 Kinds of Crypto Portfolio</p>
+                <p>2 Kinds of Crypto Portfolio</p>
               </div>
-              <button class="btn btn-reset pricing-tabs__item-buy" data-graph-animation="custom" data-graph-path="first">Get Now</button>
+              <button class="btn btn-reset pricing-tabs__item-buy" data-graph-animation="custom" data-graph-path="product-modal">Get Now</button>
             </article>
             <article class="pricing-tabs__item">
               <h5 class="pricing-tabs__item-title">Basic <span>💸</span></h5>
@@ -233,7 +53,7 @@
               <div class="pricing-tabs__item-benefits">
                 <p>Group Consulting</p>
                 <p>Updated News</p>
-                <p>4 Kinds of Crypto Portfolio</p>
+                <p>4 Kinds of Crypto Portfolio</p>
               </div>
               <button class="btn btn-reset pricing-tabs__item-buy" data-graph-animation="custom" data-graph-path="first">Get Now</button>
             </article>
@@ -243,7 +63,7 @@
               <div class="pricing-tabs__item-benefits">
                 <p>Personal Consulting</p>
                 <p>Updated News</p>
-                <p>5+ Kinds of Crypto Portfolio</p>
+                <p>5+ Kinds of Crypto Portfolio</p>
               </div>
               <button class="btn btn-reset btn--secondary pricing-tabs__item-buy" data-graph-animation="custom" data-graph-path="first">Get Now</button>
             </article>
@@ -256,252 +76,4 @@
                 <p>All Trade Features Unlocked</p>
               </div>
               <button class="btn btn-reset pricing-tabs__item-buy" data-graph-animation="custom" data-graph-path="first">Get Now</button>
-            </article>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-      <section class="section section--reviews">
-  <div class="container">
-    <div class="reviews">
-      <div class="reviews-info">
-        <h2 class="reviews-info__title">
-          What our Million Smart <span>User Says.</span>
-        </h2>
-        <p class="reviews-info__description">
-          More than one million users trust us to sell, buy, and trade the cryptocurrencies in Crypto.qu
-        </p>
-        <button class="btn btn-reset reviews-info__btn">See More</button>
-      </div>
-      <div class="reviews-content">
-        <div class="tabs reviews-tabs" data-tabs="tab2">
-          <ul class="tabs__nav reviews-tabs__nav list-reset">
-            <li class="tabs__nav-item reviews-tabs__nav-item reviews-tabs__nav-item--1">
-              <button class="tabs__nav-btn btn-reset reviews-tabs__nav-btn" type="button">
-                <picture>
-                  <source srcset="img/reviews-1.avif" type="image/avif">
-                  <source srcset="img/reviews-1.webp" type="image/webp">
-                  <img loading="lazy" src="img/reviews-1.jpg" class="image" width="100" height="100" alt="Thumb">
-                </picture>
-              </button>
-            </li>
-            <li class="tabs__nav-item reviews-tabs__nav-item reviews-tabs__nav-item--2">
-              <button class="tabs__nav-btn btn-reset reviews-tabs__nav-btn" type="button">
-                <picture>
-                  <source srcset="img/reviews-2.avif" type="image/avif">
-                  <source srcset="img/reviews-2.webp" type="image/webp">
-                  <img loading="lazy" src="img/reviews-2.jpg" class="image" width="100" height="100" alt="Thumb">
-                </picture>
-              </button>
-            </li>
-            <li class="tabs__nav-item reviews-tabs__nav-item reviews-tabs__nav-item--3">
-              <button class="tabs__nav-btn btn-reset reviews-tabs__nav-btn" type="button">
-                <picture>
-                  <source srcset="img/reviews-3.avif" type="image/avif">
-                  <source srcset="img/reviews-3.webp" type="image/webp">
-                  <img loading="lazy" src="img/reviews-3.jpg" class="image" width="100" height="100" alt="Thumb">
-                </picture>
-              </button>
-            </li>
-            <li class="tabs__nav-item reviews-tabs__nav-item reviews-tabs__nav-item--4">
-              <button class="tabs__nav-btn btn-reset reviews-tabs__nav-btn" type="button">
-                <picture>
-                  <source srcset="img/reviews-4.avif" type="image/avif">
-                  <source srcset="img/reviews-4.webp" type="image/webp">
-                  <img loading="lazy" src="img/reviews-4.jpg" class="image" width="100" height="100" alt="Thumb">
-                </picture>
-              </button>
-            </li>
-            <li class="tabs__nav-item reviews-tabs__nav-item reviews-tabs__nav-item--5">
-              <button class="tabs__nav-btn btn-reset reviews-tabs__nav-btn" type="button">
-                <picture>
-                  <source srcset="img/reviews-5.avif" type="image/avif">
-                  <source srcset="img/reviews-5.webp" type="image/webp">
-                  <img loading="lazy" src="img/reviews-5.jpg" class="image" width="100" height="100" alt="Thumb">
-                </picture>
-              </button>
-            </li>
-            <li class="tabs__nav-item reviews-tabs__nav-item reviews-tabs__nav-item--6">
-              <button class="tabs__nav-btn btn-reset reviews-tabs__nav-btn" type="button">
-                <picture>
-                  <source srcset="img/reviews-6.avif" type="image/avif">
-                  <source srcset="img/reviews-6.webp" type="image/webp">
-                  <img loading="lazy" src="img/reviews-6.jpg" class="image" width="100" height="100" alt="Thumb">
-                </picture>
-              </button>
-            </li>
-          </ul>
-          <div class="tabs__content reviews-tabs__content">
-            <div class="tabs__panel reviews-tabs__panel reviews-article">
-              <div class="reviews-article__img">
-                <picture>
-                  <source srcset="img/reviews-1.avif" type="image/avif">
-                  <source srcset="img/reviews-1.webp" type="image/webp">
-                  <img loading="lazy" src="img/reviews-1.jpg" class="image" width="425" height="490" alt="Author">
-                </picture>
-              </div>
-              <div class="reviews-article__comment">
-                <p class="reviews-article__comment-text clamp">«This is really for millennials. Not complicated, informative but clean. Fluid is also a transition. The investment manager does a lot. Now only avrist, pinnacle, simas, majoris.» </p>
-                <h6 class="reviews-article__comment-author">Ronald Thomas</h6>
-              </div>
-            </div>
-            <div class="tabs__panel reviews-tabs__panel reviews-article">
-              <div class="reviews-article__img">
-                <picture>
-                  <source srcset="img/reviews-2.avif" type="image/avif">
-                  <source srcset="img/reviews-2.webp" type="image/webp">
-                  <img loading="lazy" src="img/reviews-2.jpg" class="image" width="425" height="490" alt="Author">
-                </picture>
-              </div>
-              <div class="reviews-article__comment">
-                <p class="reviews-article__comment-text clamp">«Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam. Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.» </p>
-                <h6 class="reviews-article__comment-author">Curtis Ryan</h6>
-              </div>
-            </div>
-            <div class="tabs__panel reviews-tabs__panel reviews-article">
-              <div class="reviews-article__img">
-                <picture>
-                  <source srcset="img/reviews-3.avif" type="image/avif">
-                  <source srcset="img/reviews-3.webp" type="image/webp">
-                  <img loading="lazy" src="img/reviews-3.jpg" class="image" width="425" height="490" alt="Author">
-                </picture>
-              </div>
-              <div class="reviews-article__comment">
-                <p class="reviews-article__comment-text clamp">«Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur» </p>
-                <h6 class="reviews-article__comment-author">Kory Parks</h6>
-              </div>
-            </div>
-            <div class="tabs__panel reviews-tabs__panel reviews-article">
-              <div class="reviews-article__img">
-                <picture>
-                  <source srcset="img/reviews-4.avif" type="image/avif">
-                  <source srcset="img/reviews-4.webp" type="image/webp">
-                  <img loading="lazy" src="img/reviews-4.jpg" class="image" width="425" height="490" alt="Author">
-                </picture>
-              </div>
-              <div class="reviews-article__comment">
-                <p class="reviews-article__comment-text clamp">«Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur» </p>
-                <h6 class="reviews-article__comment-author">Joseph Ryan</h6>
-              </div>
-            </div>
-            <div class="tabs__panel reviews-tabs__panel reviews-article">
-              <div class="reviews-article__img">
-                <picture>
-                  <source srcset="img/reviews-5.avif" type="image/avif">
-                  <source srcset="img/reviews-5.webp" type="image/webp">
-                  <img loading="lazy" src="img/reviews-5.jpg" class="image" width="425" height="490" alt="Author">
-                </picture>
-              </div>
-              <div class="reviews-article__comment">
-                <p class="reviews-article__comment-text clamp">«Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.» </p>
-                <h6 class="reviews-article__comment-author">Robert Singleton</h6>
-              </div>
-            </div>
-            <div class="tabs__panel reviews-tabs__panel reviews-article">
-              <div class="reviews-article__img">
-                <picture>
-                  <source srcset="img/reviews-6.avif" type="image/avif">
-                  <source srcset="img/reviews-6.webp" type="image/webp">
-                  <img loading="lazy" src="img/reviews-6.jpg" class="image" width="425" height="490" alt="Author">
-                </picture>
-              </div>
-              <div class="reviews-article__comment">
-                <p class="reviews-article__comment-text clamp">«These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided.» </p>
-                <h6 class="reviews-article__comment-author">Angelina Jelly</h6>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-    </main>
-
-    <footer class="footer footer--section">
-  <div class="container">
-    <div class="footer-wrapper">
-      <div class="footer-top">
-        <div class="footer-column">
-          <a class="footer__logo" href="/"><img src="img/logo.svg" alt="Crypto"></a>
-          <p>Crypto.qu is the best place to learn about crypto.</p>
-          <ul class="footer-socials list-reset">
-            <li class="footer-socials__item"><a href="#" class="footer-socials__link" target="_blank"><img src="img/svg/facebook.svg" alt="facebook"></a></li>
-            <li class="footer-socials__item"><a href="#" class="footer-socials__link" target="_blank"><img src="img/svg/twitter.svg" alt="twitter"></a></li>
-            <li class="footer-socials__item"><a href="#" class="footer-socials__link" target="_blank"><img src="img/svg/instagram.svg" alt="instagram"></a></li>
-          </ul>
-        </div>
-        <nav class="footer-nav">
-          <ul class="footer-nav__list list-reset">
-            <li class="footer-nav__list-title">Menu</li>
-            <li class="footer-nav__item"><a href="#" class="footer-nav__link">Home</a></li>
-            <li class="footer-nav__item"><a href="#" class="footer-nav__link">Featured</a></li>
-            <li class="footer-nav__item"><a href="#" class="footer-nav__link">Pricing</a></li>
-          </ul>
-          <ul class="footer-nav__list list-reset">
-            <li class="footer-nav__list-title">Services</li>
-            <li class="footer-nav__item"><a href="#" class="footer-nav__link">Free Administration</a></li>
-            <li class="footer-nav__item"><a href="#" class="footer-nav__link">Data Secure</a></li>
-            <li class="footer-nav__item"><a href="#" class="footer-nav__link">Credit Card Support</a></li>
-            <li class="footer-nav__item"><a href="#" class="footer-nav__link">Debit Card Support</a></li>
-          </ul>
-          <ul class="footer-nav__list list-reset">
-            <li class="footer-nav__list-title">Further Information</li>
-            <li class="footer-nav__item"><a href="#" class="footer-nav__link">Terms & Conditions</a></li>
-            <li class="footer-nav__item"><a href="#" class="footer-nav__link">Privacy Policy</a></li>
-          </ul>
-          <ul class="footer-nav__list list-reset">
-            <li class="footer-nav__list-title">Get App</li>
-            <li class="footer-nav__item"><a href="#" class="footer-nav__link">App Store</a></li>
-            <li class="footer-nav__item"><a href="#" class="footer-nav__link">Google Play Store</a></li>
-          </ul>
-        </nav>
-      </div>
-      <div class="footer-bottom">
-        <p>Copyright © 2022 Crypto.qu. All Rights Reserved.</p>
-      </div>
-    </div>
-  </div>
-</footer>
-<div class="overlay"></div>
-
-    <div class="graph-modal">
-    <div class="graph-modal__container" role="dialog" aria-modal="true" data-graph-target="first">
-        <button class="btn-reset graph-modal__close" aria-label="Закрыть модальное окно"></button>
-        <div class="graph-modal__content">
-      <article class="modal__item">
-        <h5 class="modal__item-title">Free <span>💵</span></h5>
-        <h3 class="modal__item-price"><sup>$</sup><span>0</span><sub>/ year</sub></h3>
-        <div class="modal__item-benefits">
-          <p>Group Consulting</p>
-          <p>Updated News</p>
-          <p>2 Kinds of Crypto Portfolio</p>
-        </div>
-      </article>
-      <div class="modal-form">
-        <form action="mail.php" class="form" id="form" method="POST">
-          <h3 class="form__title">Buy free plan</h3>
-          <label class="form__label">
-            <input type="text" name="name" class="input-reset form__input input-name" data-validate-field="name" placeholder="Name">
-          </label>
-          <label class="form__label">
-            <input type="email" name="email" class="input-reset form__input input-mail" data-validate-field="email" placeholder="Email">
-          </label>
-          <label class="form__label">
-            <input type="tel" name="phone" class="input-reset form__input input-tel" data-validate-field="tel" placeholder="+38 (999) 999-99-99">
-          </label>
-          <button class="btn-reset btn form__btn modal__btn">Send</button>
-        </form>
-      </div>
-        </div>
-    </div>
-</div>
-
-  </div>
-</body>
-
-</html>
+            </article> --></div></div></div></div></div></section><section class="section section--reviews"><div class="container"><div class="reviews"><div class="reviews-info"><h2 class="reviews-info__title">What our Million Smart <span>User Says.</span></h2><p class="reviews-info__description">More than one million users trust us to sell, buy, and trade the cryptocurrencies in Crypto.qu</p><button class="btn btn-reset reviews-info__btn">See More</button></div><div class="reviews-content" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1000"><div class="tabs reviews-tabs" data-tabs="tab2"><ul class="tabs__nav reviews-tabs__nav list-reset"><li class="tabs__nav-item reviews-tabs__nav-item reviews-tabs__nav-item--1"><button class="tabs__nav-btn btn-reset reviews-tabs__nav-btn" type="button"><picture><source srcset="img/reviews-1.avif" type="image/avif"><source srcset="img/reviews-1.webp" type="image/webp"><img loading="lazy" src="img/reviews-1.jpg" class="image" width="100" height="100" alt="Thumb"></picture></button></li><li class="tabs__nav-item reviews-tabs__nav-item reviews-tabs__nav-item--2"><button class="tabs__nav-btn btn-reset reviews-tabs__nav-btn" type="button"><picture><source srcset="img/reviews-2.avif" type="image/avif"><source srcset="img/reviews-2.webp" type="image/webp"><img loading="lazy" src="img/reviews-2.jpg" class="image" width="100" height="100" alt="Thumb"></picture></button></li><li class="tabs__nav-item reviews-tabs__nav-item reviews-tabs__nav-item--3"><button class="tabs__nav-btn btn-reset reviews-tabs__nav-btn" type="button"><picture><source srcset="img/reviews-3.avif" type="image/avif"><source srcset="img/reviews-3.webp" type="image/webp"><img loading="lazy" src="img/reviews-3.jpg" class="image" width="100" height="100" alt="Thumb"></picture></button></li><li class="tabs__nav-item reviews-tabs__nav-item reviews-tabs__nav-item--4"><button class="tabs__nav-btn btn-reset reviews-tabs__nav-btn" type="button"><picture><source srcset="img/reviews-4.avif" type="image/avif"><source srcset="img/reviews-4.webp" type="image/webp"><img loading="lazy" src="img/reviews-4.jpg" class="image" width="100" height="100" alt="Thumb"></picture></button></li><li class="tabs__nav-item reviews-tabs__nav-item reviews-tabs__nav-item--5"><button class="tabs__nav-btn btn-reset reviews-tabs__nav-btn" type="button"><picture><source srcset="img/reviews-5.avif" type="image/avif"><source srcset="img/reviews-5.webp" type="image/webp"><img loading="lazy" src="img/reviews-5.jpg" class="image" width="100" height="100" alt="Thumb"></picture></button></li><li class="tabs__nav-item reviews-tabs__nav-item reviews-tabs__nav-item--6"><button class="tabs__nav-btn btn-reset reviews-tabs__nav-btn" type="button"><picture><source srcset="img/reviews-6.avif" type="image/avif"><source srcset="img/reviews-6.webp" type="image/webp"><img loading="lazy" src="img/reviews-6.jpg" class="image" width="100" height="100" alt="Thumb"></picture></button></li></ul><div class="tabs__content reviews-tabs__content"><div class="tabs__panel reviews-tabs__panel reviews-article"><div class="reviews-article__img"><picture><source srcset="img/reviews-1.avif" type="image/avif"><source srcset="img/reviews-1.webp" type="image/webp"><img loading="lazy" src="img/reviews-1.jpg" class="image" width="425" height="490" alt="Author"></picture></div><div class="reviews-article__comment"><p class="reviews-article__comment-text clamp">«This is really for millennials. Not complicated, informative but clean. Fluid is also a transition. The investment manager does a lot. Now only avrist, pinnacle, simas, majoris.»</p><h6 class="reviews-article__comment-author">Ronald Thomas</h6></div></div><div class="tabs__panel reviews-tabs__panel reviews-article"><div class="reviews-article__img"><picture><source srcset="img/reviews-2.avif" type="image/avif"><source srcset="img/reviews-2.webp" type="image/webp"><img loading="lazy" src="img/reviews-2.jpg" class="image" width="425" height="490" alt="Author"></picture></div><div class="reviews-article__comment"><p class="reviews-article__comment-text clamp">«Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam. Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.»</p><h6 class="reviews-article__comment-author">Curtis Ryan</h6></div></div><div class="tabs__panel reviews-tabs__panel reviews-article"><div class="reviews-article__img"><picture><source srcset="img/reviews-3.avif" type="image/avif"><source srcset="img/reviews-3.webp" type="image/webp"><img loading="lazy" src="img/reviews-3.jpg" class="image" width="425" height="490" alt="Author"></picture></div><div class="reviews-article__comment"><p class="reviews-article__comment-text clamp">«Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur»</p><h6 class="reviews-article__comment-author">Kory Parks</h6></div></div><div class="tabs__panel reviews-tabs__panel reviews-article"><div class="reviews-article__img"><picture><source srcset="img/reviews-4.avif" type="image/avif"><source srcset="img/reviews-4.webp" type="image/webp"><img loading="lazy" src="img/reviews-4.jpg" class="image" width="425" height="490" alt="Author"></picture></div><div class="reviews-article__comment"><p class="reviews-article__comment-text clamp">«Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur»</p><h6 class="reviews-article__comment-author">Joseph Ryan</h6></div></div><div class="tabs__panel reviews-tabs__panel reviews-article"><div class="reviews-article__img"><picture><source srcset="img/reviews-5.avif" type="image/avif"><source srcset="img/reviews-5.webp" type="image/webp"><img loading="lazy" src="img/reviews-5.jpg" class="image" width="425" height="490" alt="Author"></picture></div><div class="reviews-article__comment"><p class="reviews-article__comment-text clamp">«Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.»</p><h6 class="reviews-article__comment-author">Robert Singleton</h6></div></div><div class="tabs__panel reviews-tabs__panel reviews-article"><div class="reviews-article__img"><picture><source srcset="img/reviews-6.avif" type="image/avif"><source srcset="img/reviews-6.webp" type="image/webp"><img loading="lazy" src="img/reviews-6.jpg" class="image" width="425" height="490" alt="Author"></picture></div><div class="reviews-article__comment"><p class="reviews-article__comment-text clamp">«These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided.»</p><h6 class="reviews-article__comment-author">Angelina Jelly</h6></div></div></div></div></div></div></div></section></main><footer class="footer footer--section"><div class="container"><div class="footer-wrapper"><div class="footer-top"><div class="footer-column"><a class="footer__logo" href="/"><img src="img/logo.svg" alt="Crypto"></a><p>Crypto.qu is the best place to learn about crypto.</p><ul class="footer-socials list-reset"><li class="footer-socials__item"><a href="#" class="footer-socials__link" target="_blank"><img src="img/svg/facebook.svg" alt="facebook"></a></li><li class="footer-socials__item"><a href="#" class="footer-socials__link" target="_blank"><img src="img/svg/twitter.svg" alt="twitter"></a></li><li class="footer-socials__item"><a href="#" class="footer-socials__link" target="_blank"><img src="img/svg/instagram.svg" alt="instagram"></a></li></ul></div><nav class="footer-nav"><ul class="footer-nav__list list-reset"><li class="footer-nav__list-title">Menu</li><li class="footer-nav__item"><a href="#" class="footer-nav__link">Home</a></li><li class="footer-nav__item"><a href="#" class="footer-nav__link">Featured</a></li><li class="footer-nav__item"><a href="#" class="footer-nav__link">Pricing</a></li></ul><ul class="footer-nav__list list-reset"><li class="footer-nav__list-title">Services</li><li class="footer-nav__item"><a href="#" class="footer-nav__link">Free Administration</a></li><li class="footer-nav__item"><a href="#" class="footer-nav__link">Data Secure</a></li><li class="footer-nav__item"><a href="#" class="footer-nav__link">Credit Card Support</a></li><li class="footer-nav__item"><a href="#" class="footer-nav__link">Debit Card Support</a></li></ul><ul class="footer-nav__list list-reset"><li class="footer-nav__list-title">Further Information</li><li class="footer-nav__item"><a href="#" class="footer-nav__link">Terms & Conditions</a></li><li class="footer-nav__item"><a href="#" class="footer-nav__link">Privacy Policy</a></li></ul><ul class="footer-nav__list list-reset"><li class="footer-nav__list-title">Get App</li><li class="footer-nav__item"><a href="#" class="footer-nav__link">App Store</a></li><li class="footer-nav__item"><a href="#" class="footer-nav__link">Google Play Store</a></li></ul></nav></div><div class="footer-bottom"><p>Copyright © 2022 Crypto.qu. All Rights Reserved.</p></div></div></div></footer><div class="overlay"></div><div class="graph-modal"><div class="graph-modal__container" role="dialog" aria-modal="true" data-graph-target="product-modal"><button class="btn-reset graph-modal__close" aria-label="Закрыть модальное окно"></button><div class="graph-modal__content"><article class="modal__item"></article><div class="modal-form"><form action="mail.php" class="form" id="form" method="POST"><div class="form__title-wrapp"><h3 class="form__title"></h3></div><label class="form__label"><input type="text" name="name" class="input-reset form__input input-name" data-validate-field="name" placeholder="Name"></label> <label class="form__label"><input type="email" name="email" class="input-reset form__input input-mail" data-validate-field="email" placeholder="Email"></label> <label class="form__label"><input type="tel" name="phone" class="input-reset form__input input-tel" data-validate-field="tel" placeholder="+38 (999) 999-99-99"></label> <button class="btn-reset btn form__btn modal__btn">Send</button></form></div></div></div></div></div></body></html>

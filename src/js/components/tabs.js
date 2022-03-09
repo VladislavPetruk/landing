@@ -1,4 +1,3 @@
-// Реализация табов
 import GraphTabs from 'graph-tabs';
 
 const tabs1 = new GraphTabs('tab', {
